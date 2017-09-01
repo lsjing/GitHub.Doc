@@ -1,0 +1,667 @@
+sign -:- aUVT79Rt9tL9d Hz0QK4rfZwEDCuRsfyfWsiA8JwE585hTg7s8vQaZfLRE7XlyOlVnRrtT7ISyuegH0xZyvb448nVhF9PY0pcVYLfmYpdlep6xE7Am55rpd3oLZPF/3Lzi8YKl ZTo0HviSjFeElLO9A0IoIqxOOISqSdWo5hvQ=
+biz_content -:- <XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><Event銆佲?Type><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>
+service -:- alipay.service.check
+charset -:- GBK
+sign_type -:- RSA
+ALL_HTTP -:- HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:695
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+
+ALL_RAW -:- Connection: Keep-Alive
+Content-Length: 695
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+
+APPL_MD_PATH -:- /LM/W3SVC/2/ROOT
+APPL_PHYSICAL_PATH -:- C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\
+AUTH_TYPE -:- 
+AUTH_USER -:- 
+AUTH_PASSWORD -:- 
+LOGON_USER -:- 
+REMOTE_USER -:- 
+CERT_COOKIE -:- 
+CERT_FLAGS -:- 
+CERT_ISSUER -:- 
+CERT_KEYSIZE -:- 
+CERT_SECRETKEYSIZE -:- 
+CERT_SERIALNUMBER -:- 
+CERT_SERVER_ISSUER -:- 
+CERT_SERVER_SUBJECT -:- 
+CERT_SUBJECT -:- 
+CONTENT_LENGTH -:- 695
+CONTENT_TYPE -:- application/x-www-form-urlencoded; charset=GBK
+GATEWAY_INTERFACE -:- CGI/1.1
+HTTPS -:- off
+HTTPS_KEYSIZE -:- 
+HTTPS_SECRETKEYSIZE -:- 
+HTTPS_SERVER_ISSUER -:- 
+HTTPS_SERVER_SUBJECT -:- 
+INSTANCE_ID -:- 2
+INSTANCE_META_PATH -:- /LM/W3SVC/2
+LOCAL_ADDR -:- 127.0.0.1
+PATH_INFO -:- /Default.aspx
+PATH_TRANSLATED -:- C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Default.aspx
+QUERY_STRING -:- 
+REMOTE_ADDR -:- 127.0.0.1
+REMOTE_HOST -:- 127.0.0.1
+REMOTE_PORT -:- 34660
+REQUEST_METHOD -:- POST
+SCRIPT_NAME -:- /Default.aspx
+SERVER_NAME -:- localhost
+SERVER_PORT -:- 52186
+SERVER_PORT_SECURE -:- 0
+SERVER_PROTOCOL -:- HTTP/1.1
+SERVER_SOFTWARE -:- Microsoft-IIS/8.0
+URL -:- /Default.aspx
+HTTP_CONNECTION -:- Keep-Alive
+HTTP_CONTENT_LENGTH -:- 695
+HTTP_CONTENT_TYPE -:- application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT -:- text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET -:- GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE -:- zh-CN,zh;
+HTTP_HOST -:- localhost:52186
+HTTP_USER_AGENT -:- Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=55333&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&service=alipay.service.check&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:694
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 694
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=694&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=55423&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=694&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=57596&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=57596&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=23751&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=23751&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&service=alipay.service.check&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:694
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 694
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=694&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=23840&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=694&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=23751&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=23751&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=24259&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=24259&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=24259&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&service=alipay.service.check&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:694
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 694
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=694&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=24287&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=694&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&service=alipay.service.check&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:694
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 694
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=694&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=36674&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=694&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&service=alipay.service.check&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:694
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 694
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=694&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=36674&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=694&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37230&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37230&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37230&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&service=alipay.service.check&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:694
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 694
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=694&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37821&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=694&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&service=alipay.service.check&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:694
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 694
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=694&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37821&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=694&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37840&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37840&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>BpepHiJ4+IsYMdevuySet6KXKj/5rP+6R/cScS/rcP/leJiguc5qC3qDUga3qvM2T/Gyn6/j1o7Ky1gYkxIk3aV96jkQz/TiMWG1lZCf/6b+9R/Hw0j5YbMY6ZE3i2WAgIoOfDaQW8Hp98dIDWSroRuavpBmnEzsTY6xX22Xi1o=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37840&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>usOue3pFqIDFvH9ASXz4XVF0DRFrVOtHZ9HBIuO4rcyTX7UQd1zzb40mAR6CgPvSS+mVU8aPoZ1LTE3oui8hEyxP7mk1+23Nh/P8pQfNT4gyv75icnj13frukNh7/8RrWvRKo1D50gWorwbFgRHrv+KSAUB6/4rimrXk47URP9g=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37840&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>usOue3pFqIDFvH9ASXz4XVF0DRFrVOtHZ9HBIuO4rcyTX7UQd1zzb40mAR6CgPvSS+mVU8aPoZ1LTE3oui8hEyxP7mk1+23Nh/P8pQfNT4gyv75icnj13frukNh7/8RrWvRKo1D50gWorwbFgRHrv+KSAUB6/4rimrXk47URP9g=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=38706&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>usOue3pFqIDFvH9ASXz4XVF0DRFrVOtHZ9HBIuO4rcyTX7UQd1zzb40mAR6CgPvSS+mVU8aPoZ1LTE3oui8hEyxP7mk1+23Nh/P8pQfNT4gyv75icnj13frukNh7/8RrWvRKo1D50gWorwbFgRHrv+KSAUB6/4rimrXk47URP9g=</sign><sign_type>RSA</sign_type></alipay>
+biz_content=<XML><AppId><![CDATA[2014062300097124]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1389171239298]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX Ojajgqt0 LLOKEhSymtHn XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: __AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=biz_content=%3CXML%3E%3CAppId%3E%3C![CDATA[2014062300097124]]%3E%3C/AppId%3E%3CFromUserId%3E%3C/FromUserId%3E%3CCreateTime%3E%3C![CDATA[1389171239298]]%3E%3C/CreateTime%3E%3CMsgType%3E%3C![CDATA[event]]%3E%3C/MsgType%3E%3CEventType%3E%3C![CDATA[verifygw]]%3E%3C/EventType%3E%3CActionParam%3E%3C/ActionParam%3E%3CAgreementId%3E%3C/AgreementId%3E%3CAccountNo%3E%3C/AccountNo%3E%3C/XML%3E&charset=GBK&service=alipay.service.check&sign=D7nkkMyTcpU+DVMIL1oAvz0lZ3gubqiu9FlvGKS2PBJUAeTQYDfeAf5aME23H9hKe6WEOeNRdQDVdJZPpHw56WkbQezX+Ojajgqt0+LLOKEhSymtHn+XriS/NF7LLk353hzA4zGepy6MuI/xee4hrIIGduaGAYn6k2bPsP/Jg/Y=&sign_type=RSA&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=51710&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=__AntiXsrfToken=f480f457d2dc4156ad7e38d667117aff&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>usOue3pFqIDFvH9ASXz4XVF0DRFrVOtHZ9HBIuO4rcyTX7UQd1zzb40mAR6CgPvSS+mVU8aPoZ1LTE3oui8hEyxP7mk1+23Nh/P8pQfNT4gyv75icnj13frukNh7/8RrWvRKo1D50gWorwbFgRHrv+KSAUB6/4rimrXk47URP9g=</sign><sign_type>RSA</sign_type></alipay>
+service=alipay.mobile.public.message.notify&sign=lAkrdcPut6W2xGBJ6+oQLv3QKDP9aYc2FO3ITSev88wJ9K8JSoLVlMIRKXkgofthAjkm2yv41b9bk+gD9/BQk2AhMCo0jtPpgmTWr4PHnENjQXcKqNl/0aBhZFxYUaJdKN0zyGPI0bECDR+B0rpPyvQ+dWpkz/NqzGBj6OIxtKk=&biz_content=<XML><AppId><![CDATA[2014052600097068]]></AppId><FromUserId><![CDATA[2088102135237921]]></FromUserId><CreateTime>1403859180107</CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[follow]]></EventType><ActionParam><![CDATA[]]></ActionParam><AgreementId><![CDATA[]]></AgreementId><AccountNo><![CDATA[]]></AccountNo><UserInfo><![CDATA[{"logon_id":"150****7003","user_name":"*unanmen"}]]></UserInfo></XML>&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:931
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:52186
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 931
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:52186
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/2/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=931&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=2&INSTANCE_META_PATH=/LM/W3SVC/2&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2010\WebSites\WebSite3\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=51718&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=52186&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=931&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:52186&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/7/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=7&INSTANCE_META_PATH=/LM/W3SVC/7&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=63816&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+service=alipay.service.check&sign=F3s+nj7FT/Ae9XYzZYtwniY0XOD/6si58wCyLI7MztfdpTtR6kN5xrgUZD5GbcMQXesI2kkfH51sjgd5lz660qyZ914duR4jkgpEAlcjiea8df0YOKMpfAlMl1Eg3gChwOeFIBMbHsr/gFC1MS+mgxMekLZJeC2F9Ce9EtkGtcs=&biz_content=<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2014071800007108]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1407205889648]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:744
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 744
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/7/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=744&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=7&INSTANCE_META_PATH=/LM/W3SVC/7&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=29148&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=744&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>usOue3pFqIDFvH9ASXz4XVF0DRFrVOtHZ9HBIuO4rcyTX7UQd1zzb40mAR6CgPvSS+mVU8aPoZ1LTE3oui8hEyxP7mk1+23Nh/P8pQfNT4gyv75icnj13frukNh7/8RrWvRKo1D50gWorwbFgRHrv+KSAUB6/4rimrXk47URP9g=</sign><sign_type>RSA</sign_type></alipay>
+service=alipay.service.check&sign=F3s+nj7FT/Ae9XYzZYtwniY0XOD/6si58wCyLI7MztfdpTtR6kN5xrgUZD5GbcMQXesI2kkfH51sjgd5lz660qyZ914duR4jkgpEAlcjiea8df0YOKMpfAlMl1Eg3gChwOeFIBMbHsr/gFC1MS+mgxMekLZJeC2F9Ce9EtkGtcs=&biz_content=<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2014071800007108]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1407205889648]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:744
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 744
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/7/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=744&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=7&INSTANCE_META_PATH=/LM/W3SVC/7&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=29281&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=744&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>false</success><error_code>VERIFY_FAILED</error_code><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>usOue3pFqIDFvH9ASXz4XVF0DRFrVOtHZ9HBIuO4rcyTX7UQd1zzb40mAR6CgPvSS+mVU8aPoZ1LTE3oui8hEyxP7mk1+23Nh/P8pQfNT4gyv75icnj13frukNh7/8RrWvRKo1D50gWorwbFgRHrv+KSAUB6/4rimrXk47URP9g=</sign><sign_type>RSA</sign_type></alipay>
+service=alipay.service.check&sign=F3s+nj7FT/Ae9XYzZYtwniY0XOD/6si58wCyLI7MztfdpTtR6kN5xrgUZD5GbcMQXesI2kkfH51sjgd5lz660qyZ914duR4jkgpEAlcjiea8df0YOKMpfAlMl1Eg3gChwOeFIBMbHsr/gFC1MS+mgxMekLZJeC2F9Ce9EtkGtcs=&biz_content=<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2014071800007108]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1407205889648]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:744
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 744
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/7/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=744&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=7&INSTANCE_META_PATH=/LM/W3SVC/7&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=29281&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=744&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+<?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwow9NbDtixPFIHiCAaaMTB3StR3eGPMqK45ODAWytmPZf5B2fW9KiAwhIs4TrAinJqAafdvOtGa9c8+v3kT5ozoPlcqvdBnjPf+D38nLGKcD1KTV6BMaGOVNLxkz6TJbuYV97vhb3BktTyKvb+DfUToe9IZTuNkFPYPI2bvNtkwIDAQAB</biz_content></response><sign>TRV8WuOoRi/tPh2nCvmfiSr2thvl7/l/QlU9ucsDNmzeUuiYbn40U3x/Qvi3oJXxwhkLdUbyHxafYqot9K/LX8F/lShWkZ2tJtFhqicQsVnHlrxelFyCP8SNywkRhMBKjH7q7MZkc7l0glF7I2vP3syKZt/4ych/uygjtKZrLfc=</sign><sign_type>RSA</sign_type></alipay>
+ALL_HTTP=HTTP_CACHE_CONTROL:max-age=0
+HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&ALL_RAW=Cache-Control: max-age=0
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+&APPL_MD_PATH=/LM/W3SVC/7/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=7&INSTANCE_META_PATH=/LM/W3SVC/7&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=37162&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CACHE_CONTROL=max-age=0&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip,deflate,sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+service=alipay.mobile.public.message.notify&sign=F3gQPk5dICMChKkhDw8m9DDgeDubbGVXSY7r54/M4Yp4l1LpiyZdD4EXWocxqPeUbnh0BdeyYHKa/xj+A9o3vYpyILedAk1x4fB1Ser79UF4KuyshD0mmC/nORMza6MZxyEd6xQB1ZWTrDrzhLfxAi1kM/nwSgzgw1mGFhq2D+c=&biz_content=<XML><AppId><![CDATA[2014071800007108]]></AppId><FromUserId><![CDATA[BM7PjM8f8-v6VFqeTlFUqo97w0QKRHRl-OmymTOxsGHnKDWiwQekMHiEi06tEbjg01]]></FromUserId><CreateTime>1407234823785</CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[follow]]></EventType><ActionParam><![CDATA[]]></ActionParam><AgreementId><![CDATA[]]></AgreementId><AccountNo><![CDATA[]]></AccountNo><UserInfo><![CDATA[{"logon_id":"ran***@vip.qq.com","user_name":"*海均"}]]></UserInfo></XML>&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:992
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 992
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/7/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=992&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=7&INSTANCE_META_PATH=/LM/W3SVC/7&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=45423&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=992&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+service=alipay.mobile.public.message.notify&sign=F3gQPk5dICMChKkhDw8m9DDgeDubbGVXSY7r54/M4Yp4l1LpiyZdD4EXWocxqPeUbnh0BdeyYHKa/xj+A9o3vYpyILedAk1x4fB1Ser79UF4KuyshD0mmC/nORMza6MZxyEd6xQB1ZWTrDrzhLfxAi1kM/nwSgzgw1mGFhq2D+c=&biz_content=<XML><AppId><![CDATA[2014071800007108]]></AppId><FromUserId><![CDATA[BM7PjM8f8-v6VFqeTlFUqo97w0QKRHRl-OmymTOxsGHnKDWiwQekMHiEi06tEbjg01]]></FromUserId><CreateTime>1407234823785</CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[follow]]></EventType><ActionParam><![CDATA[]]></ActionParam><AgreementId><![CDATA[]]></AgreementId><AccountNo><![CDATA[]]></AccountNo><UserInfo><![CDATA[{"logon_id":"ran***@vip.qq.com","user_name":"*海均"}]]></UserInfo></XML>&charset=GBK&sign_type=RSA&ALL_HTTP=HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:992
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=GBK
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+HTTP_ACCEPT_CHARSET:GBK,utf-8;
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&ALL_RAW=Connection: Keep-Alive
+Content-Length: 992
+Content-Type: application/x-www-form-urlencoded; charset=GBK
+Accept: text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;
+Accept-Charset: GBK,utf-8;
+Accept-Language: zh-CN,zh;
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+&APPL_MD_PATH=/LM/W3SVC/7/ROOT&APPL_PHYSICAL_PATH=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=992&CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=7&INSTANCE_META_PATH=/LM/W3SVC/7&LOCAL_ADDR=127.0.0.1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=C:\Users\jinlong.rhj\Documents\Visual Studio 2013\alipay_public_demo_dotnet\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=127.0.0.1&REMOTE_HOST=127.0.0.1&REMOTE_PORT=45423&REQUEST_METHOD=POST&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=Keep-Alive&HTTP_CONTENT_LENGTH=992&HTTP_CONTENT_TYPE=application/x-www-form-urlencoded; charset=GBK&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml,image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*;&HTTP_ACCEPT_CHARSET=GBK,utf-8;&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+userGuid=172dafa9-69b5-4489-aba6-44a6b2464234&tma=111872281.63907783.1439805892565.1440557258130.1440644357536.8&cdeviceId=DC3CC650/D349/4CD4/918E/C26206610322&benlaicartchange2=2015/8/27 17:34:11&userID=duxun@benlai.com&benlaicartchange1=2015/8/27 17:35:53&benlaicart1=&tmd=74.111872281.63907783.1439805892565.&source=3&version=2.0.0&ZDCustomerToken=f30c4b42-9136-4a7c-9d8d-82d7854fe0cd&benlaicartchange3=8/27/2015 11:29:16 PM&benlaicart3=&ZDCustomerLogin=duxun@benlai.com,3,1&city=*u4E0A*u6D77&WebSiteSysNo=3&DeliverySysNo=120&IsAutoSelected=1&_pk_id.4.1fff=426bc89e0995b484.1440692949.8.1441529594.1441529594.&_ga=GA1.1.82123754.1440692949&_qzja=1.270988216.1439805879755.1441183442267.1441529594428.1441100720937.1441529594428..0.25.194.46&_qzjto=1.1.0&ALL_HTTP=HTTP_CONNECTION:keep-alive
+HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_ENCODING:gzip, deflate, sdch
+HTTP_ACCEPT_LANGUAGE:zh-CN,zh;q=0.8
+HTTP_COOKIE:userGuid=172dafa9-69b5-4489-aba6-44a6b2464234; tma=111872281.63907783.1439805892565.1440557258130.1440644357536.8; cdeviceId=DC3CC650/D349/4CD4/918E/C26206610322; benlaicartchange2=2015/8/27 17:34:11; userID=duxun@benlai.com; benlaicartchange1=2015/8/27 17:35:53; benlaicart1=; tmd=74.111872281.63907783.1439805892565.; source=3; version=2.0.0; ZDCustomerToken=f30c4b42-9136-4a7c-9d8d-82d7854fe0cd; benlaicartchange3=8/27/2015 11:29:16 PM; benlaicart3=; ZDCustomerLogin=duxun@benlai.com,3,1; city=*u4E0A*u6D77; WebSiteSysNo=3; DeliverySysNo=120; IsAutoSelected=1; _pk_id.4.1fff=426bc89e0995b484.1440692949.8.1441529594.1441529594.; _ga=GA1.1.82123754.1440692949; _qzja=1.270988216.1439805879755.1441183442267.1441529594428.1441100720937.1441529594428..0.25.194.46; _qzjto=1.1.0
+HTTP_HOST:localhost:7244
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36
+HTTP_HTTPS:1
+&ALL_RAW=Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: userGuid=172dafa9-69b5-4489-aba6-44a6b2464234; tma=111872281.63907783.1439805892565.1440557258130.1440644357536.8; cdeviceId=DC3CC650/D349/4CD4/918E/C26206610322; benlaicartchange2=2015/8/27 17:34:11; userID=duxun@benlai.com; benlaicartchange1=2015/8/27 17:35:53; benlaicart1=; tmd=74.111872281.63907783.1439805892565.; source=3; version=2.0.0; ZDCustomerToken=f30c4b42-9136-4a7c-9d8d-82d7854fe0cd; benlaicartchange3=8/27/2015 11:29:16 PM; benlaicart3=; ZDCustomerLogin=duxun@benlai.com,3,1; city=*u4E0A*u6D77; WebSiteSysNo=3; DeliverySysNo=120; IsAutoSelected=1; _pk_id.4.1fff=426bc89e0995b484.1440692949.8.1441529594.1441529594.; _ga=GA1.1.82123754.1440692949; _qzja=1.270988216.1439805879755.1441183442267.1441529594428.1441100720937.1441529594428..0.25.194.46; _qzjto=1.1.0
+Host: localhost:7244
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36
+HTTPS: 1
+&APPL_MD_PATH=/LM/W3SVC/29/ROOT&APPL_PHYSICAL_PATH=E:\支付\Alipay\服务端调用API .Net Demo\服务窗&当面付 .Net Demo\WebSites\AlipayDemoSite\&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=0&CONTENT_TYPE=&GATEWAY_INTERFACE=CGI/1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=29&INSTANCE_META_PATH=/LM/W3SVC/29&LOCAL_ADDR=::1&PATH_INFO=/Gateway.aspx&PATH_TRANSLATED=E:\支付\Alipay\服务端调用API .Net Demo\服务窗&当面付 .Net Demo\WebSites\AlipayDemoSite\Gateway.aspx&QUERY_STRING=&REMOTE_ADDR=::1&REMOTE_HOST=::1&REMOTE_PORT=50649&REQUEST_METHOD=GET&SCRIPT_NAME=/Gateway.aspx&SERVER_NAME=localhost&SERVER_PORT=7244&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP/1.1&SERVER_SOFTWARE=Microsoft-IIS/8.0&URL=/Gateway.aspx&HTTP_CONNECTION=keep-alive&HTTP_ACCEPT=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&HTTP_ACCEPT_ENCODING=gzip, deflate, sdch&HTTP_ACCEPT_LANGUAGE=zh-CN,zh;q=0.8&HTTP_COOKIE=userGuid=172dafa9-69b5-4489-aba6-44a6b2464234; tma=111872281.63907783.1439805892565.1440557258130.1440644357536.8; cdeviceId=DC3CC650/D349/4CD4/918E/C26206610322; benlaicartchange2=2015/8/27 17:34:11; userID=duxun@benlai.com; benlaicartchange1=2015/8/27 17:35:53; benlaicart1=; tmd=74.111872281.63907783.1439805892565.; source=3; version=2.0.0; ZDCustomerToken=f30c4b42-9136-4a7c-9d8d-82d7854fe0cd; benlaicartchange3=8/27/2015 11:29:16 PM; benlaicart3=; ZDCustomerLogin=duxun@benlai.com,3,1; city=*u4E0A*u6D77; WebSiteSysNo=3; DeliverySysNo=120; IsAutoSelected=1; _pk_id.4.1fff=426bc89e0995b484.1440692949.8.1441529594.1441529594.; _ga=GA1.1.82123754.1440692949; _qzja=1.270988216.1439805879755.1441183442267.1441529594428.1441100720937.1441529594428..0.25.194.46; _qzjto=1.1.0&HTTP_HOST=localhost:7244&HTTP_USER_AGENT=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36&HTTP_HTTPS=1

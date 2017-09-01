@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>wapforex-md5-110215</display-name>
+	<welcome-file-list>
+		<welcome-file>trade.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>Md5Trade</servlet-name>
+		<servlet-class>com.alipay.client.trade.Md5Trade</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Md5Trade</servlet-name>
+		<url-pattern>/servlet/Md5Trade</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Md5NotifyReceiver</servlet-name>
+		<servlet-class>com.alipay.client.notify.Md5NotifyReceiver</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Md5NotifyReceiver</servlet-name>
+		<url-pattern>/servlet/Md5NotifyReceiver</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Md5CallBack</servlet-name>
+		<servlet-class>com.alipay.client.callback.Md5CallBack</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Md5CallBack</servlet-name>
+		<url-pattern>/servlet/Md5CallBack</url-pattern>
+	</servlet-mapping>
+</web-app>

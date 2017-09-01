@@ -1,0 +1,10 @@
+TSVNCache.exe
+
+	TSVNCache.exe是安装TortoiseSVN完成后留下的驻留进程。
+
+	安装了SVN后会有一个TSVNCache.exe的进程驻留内存，这个进程会定时地去扫描Subversion管理的文件夹/文件是否被修改了， 一旦发现有更新，那本地的这些有更新的文件/文件夹就会被更新，这个动作不仅会占用10-85MB左右的内存，而且也会在执行的瞬间占用超过CPU 50%的负载。对于要求较高的使用者来说，这个进程还是影响到了PC的使用性能，
+那么应该如何处理它呢？
+
+	打开系统的文件夹管理–>右键–>TortoiseSVN–>settings–>Icon Overlays–>Status cache 设为”none”就可以了。
+
+		

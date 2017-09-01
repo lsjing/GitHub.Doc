@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F2F-PAY(1)", "http://localhost:38583", "{81362565-14BF-42B7-9D7A-95EF3D1D3758}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		ProjectReferences = "{9c11cae5-5188-4e71-825b-68fc3135728a}|AopSdk.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_38583"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\F2F-PAY\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_38583\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_38583"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\F2F-PAY\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_38583\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\F2F-PAY\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{9C11CAE5-5188-4E71-825B-68FC3135728A} = {9C11CAE5-5188-4E71-825B-68FC3135728A}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AlipayDemoSite", "http://localhost:7244", "{ADABD42D-F944-4B95-8E84-BEF3874EF38B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7244"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\AlipayDemoSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7244\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7244"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\AlipayDemoSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7244\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\AlipayDemoSite\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopSdk", "..\SDK-ALL\AopSdk.csproj", "{9C11CAE5-5188-4E71-825B-68FC3135728A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81362565-14BF-42B7-9D7A-95EF3D1D3758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81362565-14BF-42B7-9D7A-95EF3D1D3758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81362565-14BF-42B7-9D7A-95EF3D1D3758}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{81362565-14BF-42B7-9D7A-95EF3D1D3758}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{ADABD42D-F944-4B95-8E84-BEF3874EF38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADABD42D-F944-4B95-8E84-BEF3874EF38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADABD42D-F944-4B95-8E84-BEF3874EF38B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADABD42D-F944-4B95-8E84-BEF3874EF38B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

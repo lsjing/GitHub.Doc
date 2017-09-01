@@ -1,0 +1,99 @@
+--农行配置
+INSERT INTO [Dictionary]
+           ([DicFlag]
+           ,[DicNo]
+           ,[ParentNo]
+           ,[DicName]
+           ,[DicOrder]
+           ,[Status]
+           ,[Description]
+           ,[CreateUserNo] 
+           ,[UpdateUserNo] )
+     VALUES
+           ('ABchinaConfig'
+           ,1
+           ,0
+           ,'[{"CommodityType": "0201","CurrencyCode": "156","InstallmentMark": "0","IsBreakAccount": "0","NotifyType": "1","PaymentType": "1","PayTypeID": "ImmediatePay","ResultNotifyURL": "http:192.168.60.230:8092/ABC/PaySuccess.aspx"}]'
+           ,1
+           ,1
+           ,'农行支付配置'
+           ,'0'
+           ,'0' )
+GO
+
+--支付与回调接口域名
+INSERT INTO  [Dictionary]
+           ([DicFlag]
+           ,[DicNo]
+           ,[ParentNo]
+           ,[DicName]
+           ,[DicOrder]
+           ,[Status]
+           ,[Description]
+           ,[CreateUserNo] 
+           ,[UpdateUserNo] )
+     VALUES
+           ('PayNotifyDomain'
+           ,1
+           ,0
+           ,'http://192.168.60.230:8092/'
+           ,1
+           ,1
+           ,'支付与回调域名'
+           ,'0'
+           ,'0' )
+GO
+
+--简单加密的Key
+INSERT INTO  [Dictionary]
+           ([DicFlag]
+           ,[DicNo]
+           ,[ParentNo]
+           ,[DicName]
+           ,[DicOrder]
+           ,[Status]
+           ,[Description]
+           ,[CreateUserNo] 
+           ,[UpdateUserNo] )
+     VALUES
+           ('PayEasySign'
+           ,1
+           ,0
+           ,'Benlai1q2w3e4r5t'
+           ,1
+           ,1
+           ,'调用支付接口，简单加密的Key'
+           ,'0'
+           ,'0' )
+GO
+
+--农行内部请求url
+INSERT INTO  [Dictionary]
+           ([DicFlag]
+           ,[DicNo]
+           ,[ParentNo]
+           ,[DicName]
+           ,[DicOrder]
+           ,[Status]
+           ,[Description]
+           ,[CreateUserNo] 
+           ,[UpdateUserNo] )
+     VALUES
+           ('PayNotifyABC'
+           ,1
+           ,0
+           ,'http://192.168.60.230:8899/ABchina.ashx'
+           ,1
+           ,1
+           ,'农行内部请求url'
+           ,'0'
+           ,'0' )
+GO
+
+
+
+
+
+
+
+

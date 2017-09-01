@@ -1,0 +1,16 @@
+陈双币测试02                             4026732615231305    229003197411105182        13867560224          B               202108     a123123
+
+查询密码是147258，CVV2 137
+
+有效期0821
+
+
+1004324976
+
+
+u38ZP9qlrDwF8uuipHUAyybmfAH94QfQKXkVJhuonxRKvqImbopXEXil41wBZ24NfdahDSSE/5z2dpf3rn25Iu/13gk2Cu3jJAlAIPF2S9tUnZhkZQqnlNP95x/LZJSr7yv8/Kr+FHhHYib74430vmzDuDaf1rQGsNAWbx53vPw=
+LMsdcWaIUlXqwlq9ZlpZxF1M3UhVWOZj2WSaO6N5FfX4GuTHdZ94jki3Y3b8cFUaWQADkkITWTYROpZXqJ1AJ5UBekFox/gUujORNW7bVaeQWtTlOHUgEOM0teNN/edtort0FcsiRHLifGSkxChoPrIft LVaIyF53cuePWRUns=
+
+
+http:192.168.60.230:8092/PayRequest/ABchina.ashx
+payordertype=so&sysno=4325019&customersysno=444368&paymentlinktype=Internet&type=GetPayUrl

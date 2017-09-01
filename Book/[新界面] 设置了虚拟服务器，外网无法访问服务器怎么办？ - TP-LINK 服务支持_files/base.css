@@ -1,0 +1,207 @@
+﻿@charset "utf-8";
+/* Version 1.0 */
+
+/*reset*/
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, select, button {
+	margin:0;
+	padding:0;
+}
+ul, ol {
+	list-style:none;
+}
+fieldset, img {
+	border:none;
+}
+body {
+	background:#F0F0F2;
+	color:#79849B;
+	font:12px/22px Arial, Verdana, sans-serif, "宋体";
+	text-align:center;
+}
+img {
+	border:0px;
+}
+a {
+	color:#79849B;
+	text-decoration:none;
+}
+a:hover {
+	color:#0073DC;
+	text-decoration:none;
+}
+input,select{
+  	color:#79849B;
+}
+#header {
+	height:100px;
+	background:#FFF url(../image/topbg.png) 0 70px repeat-x;
+}
+.container {
+	width:960px;
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+}
+#header #headContent{
+	margin:0 auto;
+	padding:50px;
+	width:960px;
+	height:80px;
+}
+#header #headContent #tpLogo{
+	float:left;
+}
+#header #headContent #toIndex{
+	float:right;
+	padding-right:20px;
+	padding-top:3px;
+}
+#main{
+	margin:0 auto;
+	width:972px;
+}
+#main #mainTop{
+	height:30px;
+	width:972px;
+	background:url(../image/bgTop.png) 0 0 no-repeat;
+}
+#main #mainContent{
+	width:972px;
+	background:url(../image/bg.png) 0 0 repeat-y;
+}
+#main #mainBottom{
+	width:972px;
+	height:30px;
+	background:url(../image/bodybottom.png) 0 0 no-repeat;
+}
+#footer{
+	margin:20px 0 30px 0;
+	text-align:center;
+	clear:both;
+}
+#footer a,#footer span{
+	margin-right:10px;
+	color:#AFAFAF;
+	font-weight:bold;
+	font-family: "微软雅黑", "宋体", Arial;
+}
+.clear{
+	clear:both;
+	height:1px;
+}
+/**/
+#detail{
+    float:right;
+    width:592px;
+    padding:10px 25px 0 0;
+    font-family:'Microsoft YaHei',Arial,SimSun;
+}
+#detail #title{
+	width:592px;
+	background:url(../image/titlebg.png) 0 0 no-repeat;
+	height:30px;
+	text-align:left;
+}
+#detail #title #search{
+	width:173px;
+	height:23px;
+	border:none;
+	background:url(../image/searchbg2.png) 0 0 no-repeat;
+	float:right;
+	padding-right:5px;
+	margin-top:3px;
+	margin-left:-170px;
+	line-height:23px;
+}
+#detail #title #searchbtn{
+	border:none;
+	width:19px;
+	height:20px;
+	background:url(../image/searchbtn2.png) 0 0 no-repeat;
+	float:right;
+	margin-top:5px;
+}
+#detail #title #searchbtn:hover{
+	background:url(../image/searchbtn2hover.png) 0 0 no-repeat;
+}
+#detaillist{position:relative;margin-top:10px; padding-top:36px;}
+#menulist{position:absolute;top:0;left:0;}
+#menulist ul li{float:left;}
+#menulist ul li a{
+	display:block;
+	height:36px;
+	width:72px;
+    font-size:14px;
+    line-height:36px;
+    background:#a7a6a6; 
+    color:#fff;
+    border:1px solid #7b7b7b; 
+    border-bottom:0;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+}
+#menulist ul li a:hover{background:#f9f9f9; color:#06F; border-color:#d3d3d3;}
+#listcontent{width:590px;background:#f9f9f9;border:1px solid #d3d3d3; padding-bottom:10px;}
+#que
+{
+height:30px;
+padding:10px 0 0 0;
+margin-left:450px;
+}
+#que #time{
+	display:block;
+	width:66px;
+	height:27px;
+	background:url(../image/time.png) 0 0 no-repeat;
+	float:left;
+}
+#que #time:hover{
+	background:url(../image/timehover.png) 0 0 no-repeat;
+}
+#que #bro{
+	display:block;
+	width:64px;
+	height:27px;
+	background:url(../image/browser.png) 0 0 no-repeat;
+	float:left;
+}
+#que #bro:hover{
+	background:url(../image/browserhover.png) 0 0 no-repeat;
+}
+#paging {
+    clear:both;
+    float:right;
+    padding:10px 30px 0 10px;
+}
+#paging a{
+	display:block;
+	margin:0 2px;
+	text-align:center;
+	background:url(../image/page.png) 0 0 no-repeat;
+	color:#848282;
+	width:18px;
+	height:22px;
+	float:left;
+}
+#paging a:hover{
+	background:url(../image/pageclick.png) 0 0 no-repeat;
+	color:#FFFFFF;
+}
+#paging .selected {
+	background:url(../image/pageclick.png) 0 0 no-repeat;
+	color:#FFFFFF;
+}
+#paging .right {
+	background:url(../image/right.png) 0 0 no-repeat;
+}
+#paging .right:hover{
+	background:url(../image/righthover.png) 0 0 no-repeat;
+	color:#9E9E9E;
+}
+#paging .left {
+	background:url(../image/left.png) 0 0 no-repeat;
+	color:#9E9E9E;
+}
+#paging .left:hover{
+	background:url(../image/lefthover.png) 0 0 no-repeat;
+}

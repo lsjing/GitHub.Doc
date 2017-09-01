@@ -1,0 +1,2 @@
+mayun git:https://git.oschina.net/uanlaibao/src.git 1347441187@qq.com myduanlaibao
+github:https://github.com/duanlaibao/src.git 1347441187@qq.com 
