@@ -1,0 +1,6 @@
+C:\DEMO\DEMO\DEMO\obj\Debug\ResolveAssemblyReference.cache
+C:\DEMO\DEMO\DEMO\bin\DEMO.dll
+C:\DEMO\DEMO\DEMO\bin\DEMO.pdb
+C:\DEMO\DEMO\DEMO\obj\Debug\DEMO.dll
+C:\DEMO\DEMO\DEMO\obj\Debug\DEMO.pdb
+C:\DEMO\DEMO\DEMO\bin\webservice.dll
