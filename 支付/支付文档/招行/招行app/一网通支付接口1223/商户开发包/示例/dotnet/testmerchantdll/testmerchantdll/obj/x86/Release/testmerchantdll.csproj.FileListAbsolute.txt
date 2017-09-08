@@ -1,0 +1,4 @@
+F:\workspace\商户开发包\代码\发布文件\商户开发包\示例\dotnet\testmerchantdll\testmerchantdll\obj\x86\Release\Interop.CMBCHINALib.dll
+F:\workspace\商户开发包\代码\发布文件\商户开发包\示例\dotnet\testmerchantdll\testmerchantdll\obj\x86\Release\testmerchantdll.csproj.ResolveComReference.cache
+E:\支付\文档\招行\招行app\一网通支付接口1223\商户开发包\示例\dotnet\testmerchantdll\testmerchantdll\obj\x86\Release\Interop.CMBCHINALib.dll
+E:\支付\文档\招行\招行app\一网通支付接口1223\商户开发包\示例\dotnet\testmerchantdll\testmerchantdll\obj\x86\Release\testmerchantdll.csproj.ResolveComReference.cache

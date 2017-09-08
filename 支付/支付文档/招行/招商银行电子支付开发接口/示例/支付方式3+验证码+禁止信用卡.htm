@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>定单校验码例子</title>
+    <script>
+      var o;
+      function get_mc()
+      {
+      if (o==null) o = new ActiveXObject("CMBChina.FirmClient");
+      var mc = e("MerchantCode");
+      mc.value = o.exGenMerchantCode(v("mkey"), v("date"), v("branchid"), v("cono"), v("billno"), v("amount"), v("MerchantPara"), v("MerchantURL"), "", "", "", "54010306", "");
+      }
+      function e(nm)
+      {
+      return document.getElementsByName(nm)[0];
+      }
+      function v(nm)
+      {
+      return e(nm).value;
+      }
+      function s(nm,va)
+      {
+      e(nm).value = va;
+      }
+    </script>
+  </head>
+  <body>
+    必须用IE打开
+    <form id="fm" action="https://netpay.cmbchina.com/netpayment/basehttp.dll?prepayc2" method="post" target="_blank">
+      分行号：<input name="branchid" type="text" value="0755"><br>
+      商户号：<input name="cono" value="000354" type="text"><br>
+      日期：<input name="date" value="20140903" type="text">（必须填写为今天）<br>
+      定单号：<input name="billno" type="text" value="0000000001">10位数字<br>
+      金额：<input name="amount" type="text" value="1.00"><br>
+      商户自定义参数：<input name="MerchantPara" type="text" value="abc"><br>
+      返回URL：<input type="text" name="MerchantURL" value="http://merchant.com/recv.aspx">URL必须能通过公网能够访问，不能带有端口号<br>
+      <input name="MerchantCode"><input type="button" onclick="get_mc();" value="计算校验码"><br>
+      <input type="submit" value="支付"><br>
+    </form>
+    <br>
+    商户秘钥：<input type="text" name="mkey" value="AaBbCc1234567890">
+  </body>
+</html>

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D5D2577D-25E7-4A4C-8ADD-DD5FED059D6E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>upacp_sdk_net</RootNamespace>
+    <AssemblyName>upacp_sdk_net</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="demo\utf8\AcpDeal.aspx" />
+    <Content Include="demo\utf8\AcpQueryDeal.aspx" />
+    <Content Include="demo\utf8\AppPay.aspx" />
+    <Content Include="demo\utf8\AuthDeal.aspx" />
+    <Content Include="demo\utf8\AuthFinish.aspx" />
+    <Content Include="demo\utf8\AuthUndo.aspx" />
+    <Content Include="demo\utf8\AutnFinishUndo.aspx" />
+    <Content Include="demo\utf8\BackPay.aspx" />
+    <Content Include="demo\utf8\BindingQuery.aspx" />
+    <Content Include="demo\utf8\Consume.aspx" />
+    <Content Include="demo\utf8\ConsumeUndo.aspx" />
+    <Content Include="demo\utf8\CreateBinding.aspx" />
+    <Content Include="demo\utf8\FileTransfer.aspx" />
+    <Content Include="demo\utf8\FrontPay.aspx" />
+    <Content Include="demo\utf8\FrontRcvResponse.aspx" />
+    <Content Include="demo\utf8\Purchase.aspx" />
+    <Content Include="demo\utf8\RemoveBinding.aspx" />
+    <Content Include="demo\utf8\SendSMS.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="com\unionpay\acp\sdk\BigNum.cs" />
+    <Compile Include="com\unionpay\acp\sdk\CertUtil.cs" />
+    <Compile Include="com\unionpay\acp\sdk\DemoUtil.cs" />
+    <Compile Include="com\unionpay\acp\sdk\HttpClient.cs" />
+    <Compile Include="com\unionpay\acp\sdk\SDKConfig.cs" />
+    <Compile Include="com\unionpay\acp\sdk\SDKConstants.cs" />
+    <Compile Include="com\unionpay\acp\sdk\SDKUtil.cs" />
+    <Compile Include="com\unionpay\acp\sdk\SecurityUtil.cs" />
+    <Compile Include="demo\utf8\AcpDeal.aspx.cs">
+      <DependentUpon>AcpDeal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AcpDeal.aspx.designer.cs">
+      <DependentUpon>AcpDeal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AcpQueryDeal.aspx.cs">
+      <DependentUpon>AcpQueryDeal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AcpQueryDeal.aspx.designer.cs">
+      <DependentUpon>AcpQueryDeal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AppPay.aspx.cs">
+      <DependentUpon>AppPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AppPay.aspx.designer.cs">
+      <DependentUpon>AppPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AuthDeal.aspx.cs">
+      <DependentUpon>AuthDeal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AuthDeal.aspx.designer.cs">
+      <DependentUpon>AuthDeal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AuthFinish.aspx.cs">
+      <DependentUpon>AuthFinish.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AuthFinish.aspx.designer.cs">
+      <DependentUpon>AuthFinish.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AuthUndo.aspx.cs">
+      <DependentUpon>AuthUndo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AuthUndo.aspx.designer.cs">
+      <DependentUpon>AuthUndo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AutnFinishUndo.aspx.cs">
+      <DependentUpon>AutnFinishUndo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\AutnFinishUndo.aspx.designer.cs">
+      <DependentUpon>AutnFinishUndo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\BackPay.aspx.cs">
+      <DependentUpon>BackPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\BackPay.aspx.designer.cs">
+      <DependentUpon>BackPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\BindingQuery.aspx.cs">
+      <DependentUpon>BindingQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\BindingQuery.aspx.designer.cs">
+      <DependentUpon>BindingQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\Consume.aspx.cs">
+      <DependentUpon>Consume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\Consume.aspx.designer.cs">
+      <DependentUpon>Consume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\ConsumeUndo.aspx.cs">
+      <DependentUpon>ConsumeUndo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\ConsumeUndo.aspx.designer.cs">
+      <DependentUpon>ConsumeUndo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\CreateBinding.aspx.cs">
+      <DependentUpon>CreateBinding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\CreateBinding.aspx.designer.cs">
+      <DependentUpon>CreateBinding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\FileTransfer.aspx.cs">
+      <DependentUpon>FileTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\FileTransfer.aspx.designer.cs">
+      <DependentUpon>FileTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\FrontPay.aspx.cs">
+      <DependentUpon>FrontPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\FrontPay.aspx.designer.cs">
+      <DependentUpon>FrontPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\FrontRcvResponse.aspx.cs">
+      <DependentUpon>FrontRcvResponse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\FrontRcvResponse.aspx.designer.cs">
+      <DependentUpon>FrontRcvResponse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\Purchase.aspx.cs">
+      <DependentUpon>Purchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\Purchase.aspx.designer.cs">
+      <DependentUpon>Purchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\RemoveBinding.aspx.cs">
+      <DependentUpon>RemoveBinding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\RemoveBinding.aspx.designer.cs">
+      <DependentUpon>RemoveBinding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\SendSMS.aspx.cs">
+      <DependentUpon>SendSMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo\utf8\SendSMS.aspx.designer.cs">
+      <DependentUpon>SendSMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3581/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

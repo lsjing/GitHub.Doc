@@ -1,0 +1,15 @@
+<html>
+<body>
+<form id="fm" action="https://netpay.cmbchina.com/netpayment/basehttp.dll?testprepayc2" method="post" target="_blank">
+分行号：<input name="branchid" type="text" value="0571"><br>
+商户号：<input name="cono" value="001139" type="text"><br>
+日期：<input name="date" value="20140903" type="text">（必须填写为今天）<br>
+定单号：<input name="billno" type="text" value="0000000001">10位数字<br>
+金额：<input name="amount" type="text" value="1.00"><br>
+商户自定义参数：<input name="MerchantPara" type="text" value="abc"><br>
+返回URL：<input type="text" name="MerchantURL" value="http://merchant.com/recv.aspx">URL必须能通过公网能够访问，不能带有端口号，页面中不能含有跳转<br>
+浏览器返回URL：<input type="text" name="MerchantRetUrl" value="http://127.0.0.1/abc.htm">
+<input type="submit" value="支付">
+</form>
+</body>
+</html>

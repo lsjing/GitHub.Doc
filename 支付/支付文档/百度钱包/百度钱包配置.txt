@@ -1,0 +1,30 @@
+1、web  general.config
+（1）
+<BaiDuWapPageUrl>http://m.benlai.com//BenlaiWap/order/baiduBack</BaiDuWapPageUrl>
+(2)
+
+<BaiDuWalletPaySite>1,2,3</BaiDuWalletPaySite>
+(3)在原有的上面增加的配置
+  <BankDirectPay>
+    <![CDATA[
+    { 
+       "ICBCPay":"0",
+      "COMMPay":"1",
+      "CCB":"1",
+      "ABC":"0",
+      "CMB":"1",
+      "BestPay":"1",
+      "BaiDuWalletPay":"1"
+      }
+    ]]>
+  </BankDirectPay>
+
+2、api general.config
+<BaiDuWalletPaySite>1,2,3</BaiDuWalletPaySite>
+
+
+数据表要增加的数据
+insert into BankContent  (BankName,BankCode,BankHtmlContent)values ('百度钱包','BaiDuWallet','<p></p>')
+
+insert into payType (sysNo,payTypeId,PaytypeName,PayTYpeDesc,Period,paymentPage,payrate,isNet,isPayWhenRecv,orderNumber,IsOnlineShow)
+values(70,70,'百度钱包支付','百度钱包支付','','BaiDuPay',0.00,1,0,0,0)   

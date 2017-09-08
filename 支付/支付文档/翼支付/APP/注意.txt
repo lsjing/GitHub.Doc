@@ -1,0 +1,16 @@
+接入注意细节：
+   （1）先调下单接口下单（必须先下单）
+   （2）ORDERSEQ和ORDERREQTRANSEQ 长度限制10~30位之间，数字，字母组合，不能有字符。
+        TRANSCODE 默认01，
+        MERCHANTPWD 交易key
+        ORDERAMT金额单位分，例 1元――写为 100
+        ORDERAMOUNT，ATTACHAMOUNT，PRODUCTAMOUNT 金额单位为元，2位小数，例：0.00.ORDERAMOUNT=ATTACHAMOUNT+PRODUCTAMOUNT
+   （3）2次Mac加密（MD5 32位大写）：
+        支付时候MAC加密原串示例：
+        MERCHANTID=&ORDERSEQ=&ORDERREQTRNSEQ=&ORDERTIME=&KEY=
+        下单MAC原串示例：
+        MERCHANTID=&ORDERSEQ=&ORDERREQTRANSEQ=&ORDERREQTIME=&KEY=
+   （4）customerID字段必填，不为空。
+   （5）下单和支付时的订单号，订单请求流水号，订单时间，金额需保持一致。
+   （6）IOS使用真机测试，IOS9系统需做适配，http://segmentfault.com/q/1010000003741815 
+   （7） 参数中 PRODUCTID和BUSITYPE传值需保持一致。（默认04，纯支付）

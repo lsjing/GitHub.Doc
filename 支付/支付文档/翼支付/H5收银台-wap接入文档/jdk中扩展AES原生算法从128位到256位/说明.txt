@@ -1,0 +1,1 @@
+替换下%JDK_HOME%\jre\lib\security目录下覆盖原来两个同名文件，可以先备份下原来文件

@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Using CMBChina.FirmClient Object</title>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<script language='vbs'>
+<!--
+dim firmClient
+
+sub login_onclick
+Set firmClient = CreateObject ("CMBChina.FirmClient")
+nRet = firmClient.exSetOptions ("netpay.cmbchina.com", "")
+If nRet <> 0 Then
+	ErrStr = firmClient.exGetLastErr (nRet)
+    msgbox ErrStr
+    exit sub
+End If
+nRet = firmClient.exLoginC ("0571", "001139", "888888")
+If nRet <> 0 Then
+	ErrStr = firmClient.exGetLastErr (nRet)
+	msgbox ErrStr
+	exit sub
+End If
+end sub
+
+sub query_onclick
+nRet = firmClient.exQueryUnsettledOrder(sInfo)
+
+If nRet <> 0 Then
+	ErrStr = firmClient.exGetLastErr (nRet)
+    msgbox errstr
+    exit sub
+End If
+res.value=sInfo
+end sub
+
+
+sub logout_onclick
+nRet = firmClient.exLogout()
+
+If nRet <> 0 Then
+    ErrStr = firmClient.GetLastErr(nRet)
+    Response.Write ErrStr
+End If
+end sub
+-->
+</script>
+</head>
+<body>
+<input type=button id='login' value='login'>
+<input type=button id='logout' value='logout'>
+<input type=button id='query' value='query'>
+<textarea id=res cols=80 rows=40></textarea>
+</body>
+</html>
