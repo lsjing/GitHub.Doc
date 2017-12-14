@@ -1,0 +1,1 @@
+C:\Users\duanlaibao\OneDrive\localsrc\branches\支付文档\中国银行\20151030中国银行B2C支付技术开发规范（技术联系人：彭洋旻010-82976650)\java、.net、php语言开发实例\中国银行B2C、B2B网上支付接口.net语言开发示例\网上支付接口.net语言开发示例\P7Verify_CSharp\P7Verify_CSharp\bin\Debug\P7Verify_CSharp.exe.config

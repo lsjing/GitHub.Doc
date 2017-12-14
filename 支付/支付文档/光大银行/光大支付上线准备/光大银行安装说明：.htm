@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+<!--defaultCSS-->
+<title>光大银行安装说明：</title>
+
+
+
+
+
+<style type="text/css" id="wiz_todo_style_id" wiz_link_version="01.00.09">.wiz-todo, .wiz-todo-img {width: 16px; height: 16px; cursor: default; padding: 0 10px 0 2px; vertical-align: -10%;-webkit-user-select: none;} .wiz-todo-label { display: inline-block; padding-top: 7px; padding-bottom: 6px; line-height: 1.5;} .wiz-todo-label-checked {  color: #666;} .wiz-todo-label-unchecked {text-decoration: initial;} .wiz-todo-completed-info {padding-left: 44px; display: inline-block; } .wiz-todo-avatar { width:20px; height: 20px; vertical-align: -20%; margin-right:10px; border-radius: 2px;} .wiz-todo-account, .wiz-todo-dt { color: #666; }</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css" id="wiz_custom_css">
+body
+{
+    font-family: Microsoft YaHei UI,"Microsoft YaHei", Georgia,Helvetica,Arial,sans-serif,宋体, PMingLiU,serif;
+    font-size: 10.5pt;
+    line-height: 1.5;
+}
+html, body
+{
+    
+    
+}
+h1 {
+    font-size:1.5em;
+    font-weight:bold;
+}
+h2 {
+    font-size:1.4em;
+    font-weight:bold;
+}
+h3 {
+    font-size:1.3em;
+    font-weight:bold;
+}
+h4 {
+    font-size:1.2em;
+    font-weight:bold;
+}
+h5 {
+    font-size:1.1em;
+    font-weight:bold;
+}
+h6 {
+    font-size:1.0em;
+    font-weight:bold;
+}
+img {
+    border:0;
+    max-width: 100%;
+    height: auto !important;
+}
+blockquote {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+table {
+    border-collapse:collapse;
+    border:1px solid #bbbbbb;
+}
+td {
+    border-collapse:collapse;
+    border:1px solid #bbbbbb;
+}
+</style>
+</head>
+
+<body style="" ><div><span style="font-size: 9pt;"><font face="微软雅黑"><span data-wiz-span="data-wiz-span" style="font-size: 12pt;"><b>一、光大银行支付环境配置的准备工作：</b></span></font></span></div><div><span style="font-size: 9pt;"><font face="微软雅黑"><span data-wiz-span="data-wiz-span" style="font-size: 10pt;">1、测试报告通过后，光大会给商户发来公钥</span></font></span><span style="font-size: 10pt; font-family: 微软雅黑; line-height: 1.5;">：见附件（</span><font face="微软雅黑" size="2"><span style="line-height: 18.095239639282227px;">正式环境证书文件夹下的</span>CEP_PR_PUBKEY.cer</font><span style="font-family: 微软雅黑; font-size: 10pt; line-height: 1.5;">）</span></div><div><span style="font-size: 10pt; font-family: 微软雅黑; line-height: 1.5;">公钥的CN值：</span><span style="font-family: 微软雅黑; font-size: 10pt; line-height: 1.5;">041@81000001001174@中国光大银行股份有限公司@00000001</span></div><div><font face="微软雅黑" style="text-indent: 28px; font-size: 9pt;"><span data-wiz-span="data-wiz-span" style="font-size: 10pt;">&nbsp;2、正式签约光大支付后，会收到一个两码证书，</span><span style="font-size: medium; line-height: 24px;"><span data-wiz-span="data-wiz-span" style="font-size: 10pt;">用两码证书上给的参考号和授权码下载的私钥（</span></span></font><span style="font-family: 微软雅黑; font-size: small; line-height: 18.095239639282227px;">正式环境证书文件夹下的</span><font face="微软雅黑" size="2" style="text-indent: 28px;"><span style="line-height: 23.988096237182617px;">benlaiCEBPrivateKey.pfx</span></font><span style="text-indent: 28px; font-size: 10pt; line-height: 24px; font-family: 微软雅黑;">）</span></div><div><div style="font-size: 9pt;"><font face="微软雅黑"><span style="font-size: 9pt; line-height: 1.5;"><span data-wiz-span="data-wiz-span" style="font-size: 10pt;">私钥的CN值：041@82008854143@2008854143@00000003</span></span></font></div><div style="font-size: 9pt;"><font face="微软雅黑"><font color="#ff0000"><span style="font-size: 11pt;">备注：“<!--WizRtf2Html Charset=134  -->CN = 041****<!--WizRtf2Html Charset=134  -->”中等号左右有空格不能直接复制使用，其次如果商户的<!--WizRtf2Html Charset=134  -->CN<!--WizRtf2Html Charset=134  -->中间有空格，需要用英文的问号代替</span>&nbsp;&nbsp;</font><span style="font-size: 9pt; line-height: 1.5;"><span data-wiz-span="data-wiz-span" style="font-size: 10pt;"><br></span></span></font></div><div style="font-size: 9pt;"><font face="微软雅黑"><span style="font-size: 9pt; line-height: 1.5;"><span data-wiz-span="data-wiz-span" style="font-size: 10pt;">3、怎样查看公钥活私钥的CN值</span></span></font></div><div><font face="微软雅黑" size="2"><span style="line-height: 18.095239639282227px;">公钥的CN值的查看，双击公钥</span></font><span style="font-family: 微软雅黑; font-size: small; line-height: 18.095239639282227px;">CEP_PR_PUBKEY.cer，详细信息&gt;点击使用者，就能看到CN值。</span></div><div><span style="font-family: 微软雅黑; font-size: small; line-height: 18.095239639282227px;">私钥的CN值查看</span><font face="微软雅黑"><span style="font-size: small; line-height: 18.095239639282227px;">，</span><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">开始 → 运行 → </span><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">certmgr.msc </span><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">，找到刚安装的证书并双击查看</span><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">CN</span><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">。或者在导出私钥的pc上，IE&gt;工具&gt;Internet选项&gt;内容&gt;证书</span></font></div><div><font face="微软雅黑"><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">找到用两码证书导出的私钥，双击</span></font><span style="font-family: 微软雅黑; font-size: small; line-height: 18.095239639282227px;">详细信息&gt;点击使用者，</span><span style="font-family: 微软雅黑; font-size: small; line-height: 18.095239639282227px;">就能看到CN值。</span></div><div><font face="微软雅黑"><span style="color: windowtext; font-size: 11pt; line-height: 1.5;"><span data-wiz-span="data-wiz-span" style="font-size: 12pt;"><b>二、配置服务器的支付环境</b></span></span></font></div><div><font face="微软雅黑"><b><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">1、将附件里</span><span style="line-height: 20.952381134033203px;">safesign文件夹拷贝到C盘里，该文件夹里为光大支付安全服务包，包含①CSIISafeSignForCEB.exe，②port.cfg，③safesignforceb.cfg三个文件，缺一不可。</span></b></font></div><div><font face="微软雅黑"><span style="line-height: 20.952381134033203px;">其中</span></font><span style="font-family: 微软雅黑; line-height: 20.952381134033203px;">②port.cfg文件里写入安全服务安装的端口号。</span></div><div><span style="font-family: 微软雅黑; line-height: 20.952381134033203px;">③safesignforceb.cfg写入以下配置信息：</span></div><div><font face="微软雅黑"><span style="line-height: 20.952381134033203px;"><div>51989</div><div>CN=041@82008854143@2008854143@00000003</div><div>CN=041@81000001001174@中国光大银行股份有限公司@00000001</div>&nbsp;（<font color="#ff0000">备注：以上配置信息说明</font></span></font></div><div><font color="#ff0000"><font face="微软雅黑"><span style="line-height: 20.952381134033203px;">第一行为端口号跟</span></font><span style="font-family: 微软雅黑; line-height: 20.952381134033203px; font-size: 10.5pt;">②port.cfg里的端口号必须保持一致。</span></font><div><!--WizRtf2Html Charset=134  --><span style="font-size: 11pt;"><font face="微软雅黑" color="#ff0000">第二行设置的是商户用于签名的商户私钥<!--WizRtf2Html Charset=134  -->CN<!--WizRtf2Html Charset=134  -->，<!--WizRtf2Html Charset=134  -->=<!--WizRtf2Html Charset=134  -->左右不能有空格</font></span></div><font face="微软雅黑"><span style="font-size: 11pt;"><font color="#ff0000">第三行设置的是商户用于验签的银行公钥<!--WizRtf2Html Charset=134  -->CN<!--WizRtf2Html Charset=134  -->，<!--WizRtf2Html Charset=134  -->=<!--WizRtf2Html Charset=134  -->左右不能有空格</font></span><font color="#32cd32">&nbsp;</font>&nbsp;<span style="line-height: 20.952381134033203px; font-size: 10.5pt;">）</span></font></div><div><b><font face="微软雅黑"><span style="line-height: 20.952381134033203px; font-size: 10.5pt;">2、将公钥和私钥拷贝至服务器，进行安装，</span></font><span style="color: windowtext; font-family: SimSun, sans-serif; font-size: 11pt; line-height: 1.5;">商户私钥安装到个人库，密码 benlai2015。银行公钥安装到受信任的根证书颁发机构库。</span></b></div><div><span style="color: windowtext; font-family: SimSun, sans-serif; font-size: 11pt; line-height: 1.5;">（安装证书操作）</span></div><!--WizRtf2Html Charset=134  --><b><font face="微软雅黑"><span style="font-size: 11pt; color: windowtext;">3、</span><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">SAFESIGN.dll拷贝至服务器</span></font></b><div><!--WizRtf2Html Charset=134  --><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">32<!--WizRtf2Html Charset=134  -->位系统放置到<!--WizRtf2Html Charset=134  --><span style="font-size: 11pt;">$WINDIR\WINDOWS\system32 </span></font></span></div><font face="微软雅黑"><span style="font-size: 11pt; color: windowtext;">64<!--WizRtf2Html Charset=134  -->位系统放置到<!--WizRtf2Html Charset=134  --><span style="font-size: 11pt;">$WINDIR\WINDOWS\SysWOW64&nbsp;</span></span><span style="font-size: 11pt; color: windowtext;"><br></span></font><div style="font-size: 9pt;"><font face="微软雅黑"><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">开始 → 管理员运行 → cmd &nbsp;进行</span><span style="font-size: 10.5pt; line-height: 1.5;"><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">SAFESIGN.dll所在文件夹，执行</span></span><span style="font-size: 10.5pt; line-height: 1.5;"><span style="color: windowtext; font-size: 11pt; line-height: 1.5;">SAFESIGN.dll</span></span></font><br></div><div><span style="line-height: 20.952381134033203px;"><b><font face="微软雅黑">4、安装安全服务</font></b></span></div><div style="font-size: 9pt;"><div><!--WizRtf2Html Charset=134  --><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">（1）检查<!--WizRtf2Html Charset=134  -->c:/safesign<!--WizRtf2Html Charset=134  -->目录下是否有<!--WizRtf2Html Charset=134  -->CSIISafeSignForCEB.exe<!--WizRtf2Html Charset=134  -->文件。 </font></span></div><div><!--WizRtf2Html Charset=134  --><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">（2）dos<!--WizRtf2Html Charset=134  -->下进入<!--WizRtf2Html Charset=134  -->c:/safesign<!--WizRtf2Html Charset=134  -->目录，安装服务。 </font></span></div><div><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">如果不是域用户，则在安装指令中直接输入用户名和用户口令安装服务： </font></span></div><div><!--WizRtf2Html Charset=134  --><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">CSIISafeSignForCEB install <!--WizRtf2Html Charset=134  -->用户名 用户口令 </font></span></div><div><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">如果是使用域用户，则在安装的时候不要输入用户名和用户口 </font></span></div><div><!--WizRtf2Html Charset=134  --><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">CSIISafeSignForCEB install </font></span></div><div><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑"><!--WizRtf2Html Charset=134  -->（3）安装完成后， </font></span></div><div><span style="font-size: 11pt; color: windowtext;"><font face="微软雅黑">① 找到<!--WizRtf2Html Charset=134  -->CSIISafesignforceb<!--WizRtf2Html Charset=134  -->服务<!--WizRtf2Html Charset=134  -->(<!--WizRtf2Html Charset=134  -->右键我的电脑→管理→服务与应用程序→服务<!--WizRtf2Html Charset=134  -->)<!--WizRtf2Html Charset=134  -->，将 该服务的“启动类型”设成“自动”； </font></span></div><font face="微软雅黑"><span style="font-size: 11pt; color: windowtext;">② 打开该服务的属性，在“登录”选项卡中选择“此帐户”并输入域用户的全名及 其密码即可。&nbsp;</span><br></font></div><div style="font-size: 9pt;"><!--WizRtf2Html Charset=134  --><font face="微软雅黑"><span style="font-size: 11pt; color: windowtext;">③ 启动<!--WizRtf2Html Charset=134  -->CSIISafesignforceb<!--WizRtf2Html Charset=134  -->服务。&nbsp;</span><span style="font-size: 11pt; color: windowtext;"><br></span></font></div><div><font face="微软雅黑"><span style="line-height: 20.952381134033203px;">5、将私钥（</span><span style="font-size: small; line-height: 23.988096237182617px; text-indent: 28px;">benlaiCEBPrivateKey.pfx</span><span style="line-height: 20.952381134033203px; font-size: 10.5pt;">）当公钥导出一份(导出时，选择“不，不要导出私钥”，下一步，选择“Base64编码X.509”），具体操作参照支付测试报告通过后光大发的《电子商户操作流程》，</span></font></div><div><span style="font-size: 14px; line-height: 21px;"><font face="微软雅黑">商户财会人员用网盾登录到对公网银，上传公钥。</font></span></div><div><span style="font-size: 14px; line-height: 21px;"><font face="微软雅黑"><b>三、其他</b></font></span></div><div><font face="微软雅黑"><span style="line-height: 20.997024536132813px;">光大支付，若支付参数里包含中文参数，光大要求gbk编码。商户需要将商户支付提交的页面设置为gbk页面。</span></font></div><div><font face="微软雅黑"><span style="line-height: 20.997024536132813px;">在IE中，打开商户提交支付的页面，右键，选择“编码”，页面为关闭关闭gb2312,此时包含中文参数，提交到光大，就没有问题，若不是关闭gb2312，提交后，无法跳转到光大支付页面，因为验签失败。</span></font></div><div style="font-family: 'Microsoft YaHei UI'; font-size: 9pt;"><br></div></div></body></html>

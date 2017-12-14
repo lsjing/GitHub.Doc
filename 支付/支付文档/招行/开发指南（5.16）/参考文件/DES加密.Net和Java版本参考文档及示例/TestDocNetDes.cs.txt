@@ -1,0 +1,40 @@
+using System;
+using System.Security.Cryptography;
+using System.Text;
+
+namespace TestDes
+{
+    public class TestDocNetDes
+    {
+        //测试
+        static void Main(string[] args)
+        {
+            //待加密内容
+            string sBodyContent = "REQSERIAL=001&CUSTARGNO=001&MERCHANTNO=N3713585&MOBILE=15068821597";
+            //开发秘钥key：cmbsh29i，上生产时约定修改
+            string desKey = "cmbsh29i";
+
+            byte[] byteKey = Encoding.ASCII.GetBytes(desKey);
+            byte[] baCiphertext = DesEncrypt(Encoding.UTF8.GetBytes(sBodyContent), byteKey);
+            string sCiphertext = Convert.ToBase64String(baCiphertext);
+
+            Console.WriteLine("Des加密后的数据为:" + sCiphertext);
+            Console.ReadKey();
+            //"SHL0+oDnbYIEspP3YZMCPyuqFYVrP7FnCV53FwRcjGGL9xvkCFEq21HDDDiyhDAi9X9iSXSHm8tfX2PSt9PfygSicE8KlP+U"
+        }
+
+        /// <summary>
+        /// 加密算法
+        /// </summary>
+        /// <param name="plain"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public static byte[] DesEncrypt(byte[] plain, byte[] key)
+        {
+            DESCryptoServiceProvider des = new DESCryptoServiceProvider();
+            des.Mode = CipherMode.ECB;
+            des.Padding = PaddingMode.PKCS7;
+            return des.CreateEncryptor(key, key).TransformFinalBlock(plain, 0, plain.Length);
+        }
+    }
+}

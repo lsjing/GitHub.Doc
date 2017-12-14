@@ -1,0 +1,7 @@
+CD C:\Windows\SysWOW64
+Regsvr32 SAFESIGN.dll
+
+CD c:/safesign
+CSIISafeSignForCEB install
+
+services.msc 

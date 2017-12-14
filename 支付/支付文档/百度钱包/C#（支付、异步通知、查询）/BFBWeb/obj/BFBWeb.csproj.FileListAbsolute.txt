@@ -1,0 +1,5 @@
+C:\Users\wuxiaofang\Documents\Visual Studio 2005\Projects\BFBWeb\BFBWeb\bin\BFBWeb.dll
+C:\Users\wuxiaofang\Documents\Visual Studio 2005\Projects\BFBWeb\BFBWeb\bin\BFBWeb.pdb
+C:\Users\wuxiaofang\Documents\Visual Studio 2005\Projects\BFBWeb\BFBWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wuxiaofang\Documents\Visual Studio 2005\Projects\BFBWeb\BFBWeb\obj\Debug\BFBWeb.dll
+C:\Users\wuxiaofang\Documents\Visual Studio 2005\Projects\BFBWeb\BFBWeb\obj\Debug\BFBWeb.pdb

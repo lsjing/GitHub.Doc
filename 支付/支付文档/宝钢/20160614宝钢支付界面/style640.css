@@ -1,0 +1,18 @@
+@media(min-width: 320px) { html { font-size: 100px; } }
+@media(min-width: 360px) { html { font-size: 112.5px; } }
+@media(min-width: 400px) { html { font-size: 125px; } }
+@media(min-width: 640px) { html { font-size: 200px; } }
+body {background:#fff;font-size:.12rem;}
+#divBody{background:#fff;min-width:3.2rem;margin:0 auto;}
+.clearfix:after {content:""; display:block; height:0; visibility:hidden; clear:both; }
+html,body,form,img,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,b,u,i,p,em,td,th,input,textarea,label,select,iframe{font-family:"黑体",Arial;color:#444;padding:0;margin:0;}
+img{font-size:0.06rem;vertical-align:middle;}
+input{outline: none;}
+
+.fl{float:left !important;display:inline;}
+.fr{ float:right; display:inline;}
+
+.box{width:100%;margin:0px auto;padding:0.05rem;box-sizing:border-box;}
+
+.logo{float:left;width:100%;padding:0.1rem 0rem;box-sizing:border-box;}
+.logo img{width:0.93rem;}

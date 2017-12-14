@@ -1,0 +1,20 @@
+一、 insert into payType (sysNo,payTypeId,PaytypeName,PayTYpeDesc,Period,paymentPage,payrate,isNet,isPayWhenRecv,orderNumber,IsOnlineShow)
+values(61,61,'光大银行支付','光大银行支付','','OnlineCEB',0.00,1,1,0,0) 
+
+
+二、光大web general.Config增加配置
+  <!--光大站点配置，1表示打开，0表示关闭-->
+  <CEBPaySite>
+    <![CDATA[ 
+       { 
+            "1":"1",
+            "2":"1",
+            "3":"1"
+       }   
+    ]]>
+  </CEBPaySite>  
+
+在原有的配置上 <BankDirectPay>  </BankDirectPay>  节点里增加光大直连总开关：
+
+"CEB":"1"  
+

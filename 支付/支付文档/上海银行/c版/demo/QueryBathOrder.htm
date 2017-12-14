@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>批量订单查询</title>
+		<meta http-equiv = "Content-Type" content = "text/html; charset=gb2312">
+	</head>
+	<script language="javascript">
+	</script>
+	<body bgcolor="#FFFFFF" text="#000000">
+		<form name = "submitForm" method="post" action="QueryBathOrder.asp">
+			<table align="center">
+				<tr><td colspan="2" align="center"><h2>商户订单查询</h2></td></tr>
+				<tr>
+					<td>商户代码：</td>
+					<td><input type="text" name="merchantID" value="123123" /></td>
+				</tr>
+				<tr>
+					<td>订单号集合：</td>
+					<td><input type="text" name="orderList" value="123456" />（多个订单号直接以逗号分割）</td>
+				</tr>
+				<tr>
+					<td>订单开始日期：</td>
+					<td><input type="text" name="orderBeginDate" maxlength="15" value="20090904000000" /></td>
+				</tr>
+				<tr>
+					<td>订单结束日期：</td>
+					<td><input type="text" name="orderEndDate" maxlength="15" value="20090904235959" /></td>
+				</tr>
+				<tr><td colspan="2" align="center"><input type="submit" value="提交" /></td></tr>
+			</table>
+		</form>
+	</body>
+</html>

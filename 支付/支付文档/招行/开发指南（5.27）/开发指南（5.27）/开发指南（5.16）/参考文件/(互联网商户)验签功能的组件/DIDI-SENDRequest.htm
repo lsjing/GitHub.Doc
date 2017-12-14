@@ -1,0 +1,73 @@
+﻿<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>发送通知</title>
+	<script type="text/javascript" >
+	function base64_encode( str )   
+    {  
+        if (window.btoa) // Internet Explorer 10 and above  
+            return window.btoa(unescape(encodeURIComponent( str )));  
+        else  
+        {     
+            // Cross-Browser Method (compressed)  
+              
+            // Create Base64 Object  
+            var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(e){var t="";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else if(isNaN(i)){a=64}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},decode:function(e){var t="";var n,r,i;var s,o,u,a;var f=0;e=e.replace(/[^A-Za-z0-9\+\/\=]/g,"");while(f<e.length){s=this._keyStr.indexOf(e.charAt(f++));o=this._keyStr.indexOf(e.charAt(f++));u=this._keyStr.indexOf(e.charAt(f++));a=this._keyStr.indexOf(e.charAt(f++));n=s<<2|o>>4;r=(o&15)<<4|u>>2;i=(u&3)<<6|a;t=t+String.fromCharCode(n);if(u!=64){t=t+String.fromCharCode(r)}if(a!=64){t=t+String.fromCharCode(i)}}t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/\r\n/g,"\n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}return t}}  
+            // Encode the String  
+            return Base64.encode(unescape(encodeURIComponent( str )));  
+        }  
+    }  
+
+	function base64_decode( str )   
+    {  
+        if (window.atob) // Internet Explorer 10 and above  
+            return decodeURIComponent(escape(window.atob( str )));  
+        else  
+        {  
+            // Cross-Browser Method (compressed)  
+          
+            // Create Base64 Object  
+            var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(e){var t="";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else if(isNaN(i)){a=64}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},decode:function(e){var t="";var n,r,i;var s,o,u,a;var f=0;e=e.replace(/[^A-Za-z0-9\+\/\=]/g,"");while(f<e.length){s=this._keyStr.indexOf(e.charAt(f++));o=this._keyStr.indexOf(e.charAt(f++));u=this._keyStr.indexOf(e.charAt(f++));a=this._keyStr.indexOf(e.charAt(f++));n=s<<2|o>>4;r=(o&15)<<4|u>>2;i=(u&3)<<6|a;t=t+String.fromCharCode(n);if(u!=64){t=t+String.fromCharCode(r)}if(a!=64){t=t+String.fromCharCode(i)}}t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/\r\n/g,"\n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}return t}}  
+            // Encode the String  
+            return decodeURIComponent(escape(Base64.decode( str )));  
+        }  
+    }  
+
+	function encodeDATLEN()
+	{
+		var sBUSDAT = document.getElementById("BUSDAT_SRC").value;	
+		var sBUSDAT_BASE64 = base64_encode(sBUSDAT);
+		document.getElementById("BUSDAT").value  = sBUSDAT_BASE64;
+		document.getElementById("BUSDATLEN").value  = sBUSDAT_BASE64.length;
+	}
+
+	function decodeDATLEN()
+	{
+		var sBUSDAT_BASE64 = document.getElementById("BUSDAT").value;	
+		var sBUSDAT = base64_decode(sBUSDAT_BASE64);
+		document.getElementById("BUSDAT_SRC").value  = sBUSDAT;
+		document.getElementById("BUSDATLEN").value  = sBUSDAT.length;
+	}
+	</script>
+</head>
+<body name="aa">
+<br>
+<font color=red>注意确保action地址的有效性</font>
+<hr width="90%">
+	BUSDAT原文：<br><TEXTAREA id="BUSDAT_SRC" name="BUSDAT_SRC" rows="5" cols="110"></TEXTAREA><br>
+	BUSDAT BASE64: <br>
+	<INPUT id="BUSDATLEN" type="text" value="" style="width: 100px"> <INPUT id="BUSDAT" type="text" value="" style="width: 1000px">
+	<br/>
+	<INPUT type="button" value="BASE64编码" onclick="encodeDATLEN()"> 
+	<INPUT type="button" value="返回报文BASE64解码" onclick="decodeDATLEN()">	  <br/>	 <br/>
+<form id="FrmSendRequest" method="post" action="http://58.61.30.110/CmbBank_B2B/UI/DIDI/DoBusiness.ashx" target="_blank">
+
+	发送内容：<br><TEXTAREA id="RequestData" name="RequestData" rows="10" cols="110">{"NTBNBR":"N0004949","TRSCOD":"CMSK","DATLEN":"496","COMMID":"001","BUSDAT":"PHhtbD4KPG1lcmNoX2RhdGU+MjAxNTA5MjA8L21lcmNoX2RhdGU+CjxtZXJjaF90aW1lPjEwMDAwMDwvbWVyY2hfdGltZT4KPG1lcmNoX3NlcmlhbD5jbWIxMjM0NTY3ODkwMTIzNDU2Nzg5MDwvbWVyY2hfc2VyaWFsPgo8Y3VzdF9hcmdubz4xMjM0NTY3ODkwOTg3NjU0MzIxPC9jdXN0X2FyZ25vPgo8bWVyY2hfcHJvZD7lv6vovaY8L21lcmNoX3Byb2Q+CjxjdXJyZW5jeV9ubz5STUI8L2N1cnJlbmN5X25vPgo8dHJuX2FtdD4yMDAwPC90cm5fYW10Pgo8bWVyY2hfYWJzPua7tOa7tOS4muWKoeS/oeaBr++8jOWPjOaWueWNj+WVhjwvbWVyY2hfYWJzPgo8YmFua19hZGRyPmh0dHA6Ly9iYWNrLmRpZGlkYWNoZS5jb20vLzwvYmFua19hZGRyPgo8L3htbD4=","SIGTIM":"201511101005010001","SIGDAT":"LA0JhG3lySolDnx95YcakkfNIV8dasuSRt3sUHRwsY0dFXiEgdpIweE1z3ORPScU/DXZAxyO5/x2we2C0T5QWmv6yjQa5uldtkFcpfhtzWBML82LaBhHxiOf0KN1CT054lIRNJMJKHCO17PXXgMwE33DkbyJNZ3k7Jatr6HBNo8="}</TEXTAREA>
+	<br/>
+	<INPUT type="submit" value="发送">
+</form>
+</center>
+</body>
+</html>
+
+

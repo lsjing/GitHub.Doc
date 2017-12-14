@@ -1,0 +1,70 @@
+			//装载容器
+			String pass = "111111"; //容器密码
+			String jks = "E:/cebmerchant.jks"; //容器路径
+			FileInputStream in = new FileInputStream(jks);
+			KeyStore ks = KeyStore.getInstance("JKS");
+			ks.load(in, pass.toCharArray());
+			in.close();
+			//取到公钥
+			PublicKey pub = ks.getCertificate("paygate_cert").getPublicKey();		
+			
+			InputStream ins =
+				new FileInputStream("F:/CCF_20090709_1.zip");
+
+			byte[] updateData = inputStreamToByte(ins);			
+			//通知里的摘要
+			String disgest =				"0d467c5a90de77500664eff9febb05e020b5f9f45eaf9ec9b952df981b9753c1c9602aa1be47e7f1845bc77387e78e5729ae7ef6d3055c7562df073d666b0fe48a352c015248cff851d2f8056aca1ad27cf4bf72f723a64cbbd8f675f088f9acf6cfb2ff90f1f73ba94a8e9215a1689519a995812301b0f926e2e92eb27170f6";
+			//对摘要进行转化
+			byte[] sigedText = hex2Byte(disgest);
+
+			Signature rsa = Signature.getInstance("MD5withRSA");//算法
+			rsa.initVerify(pub);//公钥
+			rsa.update(updateData);//明文
+
+			boolean verifies = rsa.verify(sigedText);//验签
+			if (verifies) {
+				//如果验签成功，进行处理，如返回NotifyAccept 报文
+			} else {
+				//如果验签失败进行处理，如返回Error报文
+
+			}
+
+
+
+		private static int a(char c) {
+			if (c >= '0' && c <= '9')
+				return c - 48;
+			if (c >= 'a' && c <= 'f')
+				return (c - 97) + 10;
+			if (c >= 'A' && c <= 'F')
+				return (c - 65) + 10;
+			else
+				throw new IllegalArgumentException("invalid_char:" + c);
+		}
+
+		public static byte[] hex2Byte(String s) {
+			int i = s.length() / 2;
+			byte abyte0[] = new byte[i];
+			for (int j = 0; j < i; j++) {
+				int k = a(s.charAt(j * 2));
+				int l = a(s.charAt(j * 2 + 1));
+				abyte0[j] = (byte) (k << 4 | l);
+			}
+
+			return abyte0;
+		}
+
+		public static byte[] inputStreamToByte(InputStream in)
+			throws IOException {
+			byte[] tmp = new byte[512];
+			ByteArrayOutputStream out = new ByteArrayOutputStream();
+			int bytesRead = in.read(tmp);
+			while (bytesRead != -1) {
+				out.write(tmp, 0, bytesRead);
+				bytesRead = in.read(tmp);
+			}
+
+			byte[] bs = out.toByteArray();
+			out.close();
+			return bs;
+		}

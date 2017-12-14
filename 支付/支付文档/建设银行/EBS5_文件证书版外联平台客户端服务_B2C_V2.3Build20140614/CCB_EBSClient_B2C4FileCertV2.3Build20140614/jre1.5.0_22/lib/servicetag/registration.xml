@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<registration_data version="1.0">
+   <environment>
+      <hostname>server20-dn4sb4</hostname>
+      <hostId></hostId>
+      <osName>Windows 2003</osName>
+      <osVersion>5.2</osVersion>
+      <osArchitecture>x86</osArchitecture>
+      <systemModel>HP Compaq dx2200 MT</systemModel>
+      <systemManufacturer>Hewlett-Packard</systemManufacturer>
+      <cpuManufacturer>GenuineIntel</cpuManufacturer>
+      <serialNumber>CNG71207FM</serialNumber>
+   </environment>
+   <registry urn="urn:st:344322b7-a95d-48c1-91ba-da48ad283a8f" version="1.0">
+      <service_tag>
+         <instance_urn>urn:st:454b77ce-863e-4f60-9e13-ec47b105e2b0</instance_urn>
+         <product_name>J2SE 5.0 Runtime Environment</product_name>
+         <product_version>1.5.0_22</product_version>
+         <product_urn>urn:uuid:5c6686aa-fd05-46a6-ba3e-700e2d5f7043</product_urn>
+         <product_parent_urn>urn:uuid:f3c20172-557a-11d7-93d0-d6a41ea318df</product_parent_urn>
+         <product_parent>Java 2 Platform, Standard Edition 5.0</product_parent>
+         <product_defined_inst_id>id=1.5.0_22-b03 x86,dir=C:\Program Files\Java\jre1.5.0_22</product_defined_inst_id>
+         <product_vendor>Sun Microsystems</product_vendor>
+         <platform_arch>x86</platform_arch>
+         <timestamp>2010-05-06 10:49:32 GMT</timestamp>
+         <container>global</container>
+         <source>Windows JRE i586 installer</source>
+         <installer_uid>-1</installer_uid>
+      </service_tag>
+   </registry>
+</registration_data>

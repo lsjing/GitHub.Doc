@@ -1,0 +1,50 @@
+ 
+--上海银行配置
+INSERT INTO [Dictionary]
+           ([DicFlag]
+           ,[DicNo]
+           ,[ParentNo]
+           ,[DicName]
+           ,[DicOrder]
+           ,[Status]
+           ,[Description]
+           ,[CreateUserNo] 
+           ,[UpdateUserNo] )
+     VALUES
+           ('SHBankConfig'
+           ,1
+           ,0
+           ,'[{"merchantID":"315310018000226","curType":"156","merNotifyUrl":"http://118.242.18.187:8092/SHBank/notify.aspx","merNotifySign":"0","merGetGoodsUrl":"","merGetGoodsSign":"2","reserved1":"10"}]'
+           ,1
+           ,1
+           ,'上海银行支付配置'
+           ,'0'
+           ,'0' )
+GO
+
+
+
+--上海银行内部请求url
+INSERT INTO  [Dictionary]
+           ([DicFlag]
+           ,[DicNo]
+           ,[ParentNo]
+           ,[DicName]
+           ,[DicOrder]
+           ,[Status]
+           ,[Description]
+           ,[CreateUserNo] 
+           ,[UpdateUserNo] )
+     VALUES
+           ('PayNotifySH'
+           ,1
+           ,0
+           ,'http://192.168.60.230:19000/PayInterface.ashx'
+           ,1
+           ,1
+           ,'上海银行内部请求url'
+           ,'0'
+           ,'0' )
+GO
+
+

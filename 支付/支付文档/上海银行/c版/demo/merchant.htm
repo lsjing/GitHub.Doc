@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>商户订单测试</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	</head>
+	<body bgcolor="#FFFFFF" text="#000000">
+		<form name="form1" method="post" action="merchant.asp">
+			<p align="center">
+				<input type="hidden" name="merCert" />上海银行商户订单测试
+			</p>
+			<table width="75%" border="0" cellpadding="0" cellspacing="0" align="center">
+				<tr>
+                   <td>商户代码<font color="red">*</font></td>
+                   <td><input type="text" name="merchantID" maxlength='15' value="123123" /></td>	
+				</tr>
+				<tr>
+					<td>订单号<font color="red">*</font></td>
+					<td><input type="text" name="merOrderNum" maxlength='30' value="20090811142030164" /></td>					
+				</tr>
+				<tr>
+					<td>订单金额<font color="red">*</font></td>
+					<td><input type="text" name="merOrderAmt" maxlength='18' value="1" />单位分，无小数点</td>
+				</tr>
+				<tr>
+					<td>币种<font color="red">*</font></td>
+					<td><input type="text" name="curType" value="156" maxlength="3" readonly="readonly" /></td>
+				</tr>
+				<tr>
+					<td>订单日期<font color="red">*</font></td>
+					<td><input type="text" name="orderDate" maxlength="6" value="20090811" />yyyyMMdd</td>
+				</tr>
+				<tr>
+					<td>订单时间<font color="red">*</font></td>
+					<td><input type="text" name="orderTime" maxlength="6" value="142030" />HHmmss</td>
+				</tr>
+				<tr>
+					<td>支付结果通知类型<font color="red">*</font></td>
+					<td>
+						<select name="merNotifySign">
+								<option value="0">只接收支付成功结果</option>
+								<option value="1">全部接收支付结果</option>
+								<option value="2">不接收支付结果</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>支付结果信息通知URL<font color="red">*</font></td>
+					<td><input type="text" name="merNotifyUrl" value="http://11.1.160.89:6677/boscartoon/HTTPrecerive.jsp" size="52" /></td>
+				</tr>
+				<tr>
+					<td>客户取货类型<font color="red">*</font></td>
+					<td>
+						<select name="merGetGoodsSign">
+							<option value="0">成功时展示取货地址</option>
+							<option value="1">成功失败都展示取货地址</option>
+							<option value="2">不展示取货地址</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>客户取货地址URL<font color="red">*</font></td>
+					<td><input type="text" name="merGetGoodsUrl" size="52" value="http://11.1.160.89:6677/boscartoon/HTTPrecerive.jsp" /></td>
+				</tr>
+				<tr><td colspan="2">&nbsp;</td></tr>
+				<tr>
+                    <td colspan="2" align="center"><input type="submit" id="Submit" value="提交" name="submit" /></td>
+               </tr>
+			</table>
+		</form>
+	</body>
+</html>

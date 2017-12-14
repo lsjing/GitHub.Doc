@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<partner>
+
+	<!-- pid -->
+	<partnerId>2088701998606387</partnerId>
+	<!--MD5-->
+	<md5SecId>MD5</md5SecId>
+	<md5SignAlgo>MD5</md5SignAlgo>
+	<!--请从自助签约平台获取MD5安全校验码-->
+	<md5Key>275a3wdfu8s9qhgh3k4gfihxza0e9j09</md5Key>
+	<serverUrl>http://mapi.alipay.com</serverUrl>
+	<serverPort>80</serverPort>
+</partner>
