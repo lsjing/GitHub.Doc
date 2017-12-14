@@ -1,0 +1,14 @@
+ERP配置中心配置
+=================================
+ConfigKey=CloudPurchasesSOATimeout	
+ConfigValue=5000
+=================================
+ConfigKey=CloudPurchasesSOAProtocol	
+ConfigValue=1
+=================================
+ConfigKey=CloudPurchasesSOAHost	
+ConfigValue=192.168.60.86:21017
+=================================
+
+
+注：如已存在就不用配置

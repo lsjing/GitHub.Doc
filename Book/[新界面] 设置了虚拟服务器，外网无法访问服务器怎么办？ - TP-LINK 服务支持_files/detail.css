@@ -1,0 +1,92 @@
+﻿#detail{
+	width:705px;
+	margin:0 auto;
+	padding:10px 0;
+	float:none;
+}
+
+
+#detailtitle {
+	background: url(../image/detailtitle.png) 0 0 no-repeat;
+	width:704px;
+	height:30px;
+	text-align:left;
+}
+#detailtitle label {
+	display:block;
+	font-family:"微软雅黑", "宋体", Arial;
+	font-size:14px;
+	color:#2E2E2E;
+	font-weight:bold;
+	padding:6px 0 0 20px;
+}
+#documentdetail {
+        color:#333333;
+	width:705px;
+	margin:20px 0 0 0;
+	text-align:left;
+}
+#documentdetail a{
+        text-decoration:underline;
+        color:#06f;
+}
+#ask {
+	margin:50px 0 0 0;
+	text-align:left;
+}
+#ask #help label {
+	font-size:14px;
+	margin-right:50px;
+	color:#5D7087;
+}
+#ask #help #yes {
+	width:71px;
+	height:27px;
+	background:url(../image/yes.png);
+	border:none;
+	margin:0;
+	padding:0;
+}
+#ask #help #yes:hover, #yes.hover{
+	background:url(../image/yeshover.png) !important;
+}
+#ask #help #no {
+	width:71px;
+	height:27px;
+	background:url(../image/no.png);
+	border:none;
+	margin:0 0 0 -5px;
+	padding:0
+}
+#ask #help #no:hover , #no.hover{
+	background:url(../image/nohover.png) !important;
+}
+#ask2 {
+	margin:10px 0 0 0;
+}
+#ask2 #other {
+	font-size:14px;
+	color:#5D7087;
+	float:left;
+	margin-top:10px;
+}
+#ask2 #otherdetail {
+	border:none;
+	background:url(../image/textbg.png) 0 0 no-repeat;
+	width:546px;
+	height:148px;
+	margin:10px 0 0 0;
+	overflow:hidden;
+}
+#ask2 #btnsub {
+	width:102px;
+	height:28px;
+	background:url(../image/submit.png);
+	border:none;
+	margin:10px 0 0 290px;
+	float:left;
+}
+#ask2 #btnsub:hover {
+	background:url(../image/submithover.png);
+	color:#FFFFFF;
+}

@@ -1,0 +1,8 @@
+==========配置中心配置================
+HcmJobTimeSpan	=	5000
+FtpHcmDirectoryName	=	DecryptedJson
+PersonNumberSwitch 	=	true
+==========数据字典配置================
+DicFlag		DicNo	ParentNo	DicName				Description
+HCM_FTPKEY	0	0		dev				cc.123
+HCM_FTPFilePath	0	0		http://192.168.60.65:20020/	http://192.168.60.65:20020/
