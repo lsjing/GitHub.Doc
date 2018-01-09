@@ -1,0 +1,75 @@
+复选框的使用
+clear:
+$('#choose-Department').combotree('setValue', -999999);
+get:
+model.DepartmentSysNoList = comboxTree.getSelectedValueArray();
+load:
+var comboxTree = {
+    selectedChildren: [],
+    init: function () {
+        $('#choose-Department').combotree({
+            url: 'DepartmentJsonData.ashx?userSysNo=1&isShowParent=false',
+            valueField: "id",
+            textField: "text",
+            lines: true,
+            animate: false,
+            checkbox: false,
+            multiple: false,
+            striped: true,
+            panelHeight: "300px",
+            onLoadSuccess: function (node, data) {
+                //$("span[class='tree-icon tree-file icon-tip']").remove();
+                $('#choose-Department').combotree('setValue', _INT_DATA_NULL);
+                $("#choose-Department").combotree('tree').tree("collapseAll");
+            },
+            //onBeforeSelect:function(node) {
+            //    if (!$(this).tree('isLeaf', node.target)) {
+            //        $('#choose-Department').combo('showPanel');
+            //        return false;
+            //    }
+            //}
+            //选择树节点触发事件  
+            onSelect: function (node) {
+                ////返回树对象  
+                //var tree = $(this).tree;
+                ////选中的节点是否为叶子节点,如果不是叶子节点,清除选中  
+                //var isLeaf = tree('isLeaf', node.target);
+                //if (!isLeaf) {
+                //    //清除选中  
+                //    $('#choose-Department').combotree('clear');
+                //}
+                var tree = $('#choose-Department').combotree('tree');
+                comboxTree.selectedChildren = tree.tree('getChildren', node.target);
+            }
+        });
+
+        //$("#choose-Department span[class='tree-icon tree-file']").remove();
+    },
+    getSelectedValue: function () {
+        return parseInt($('#choose-Department').combotree('getValue'));
+    },
+    getSelectedValueArray: function () {
+        var selectedValue = comboxTree.getSelectedValue();
+
+        var data = [];
+
+        if (selectedValue > 0) { //选择的节点和其子节点
+            data.push(selectedValue);
+            if (comboxTree.selectedChildren.length > 0) {
+                $(comboxTree.selectedChildren).each(function (i, item) {
+                    data.push(item.id);
+                });
+            }
+        } else { //所有节点
+            var tree = $('#choose-Department').combotree('tree');
+            var root = tree.tree('getRoot');
+            var children = tree.tree('getChildren', root.target);
+            if (children.length > 0) {
+                $(children).each(function (i, item) {
+                    data.push(item.id);
+                });
+            }
+        }
+        return data;
+    }
+}
