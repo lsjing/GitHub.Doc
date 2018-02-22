@@ -1,0 +1,57 @@
+declare @theDate date;
+set @theDate = CONVERT(VARCHAR(10),DATEADD(day,-1,GETDATE()),120);
+
+with shoudPay as( select ARAP.ARAPID as '应收单号',
+case ARAP.BusinessType 
+when 10 then '自营' 
+when 20 then '入住' 
+end as '应收单业务类型',
+case ARAP.BusinessDocType 
+when 2 then '销售出库' 
+when 4 then '销售退货入库' 
+when 31 then '销售拒收入库' 
+end as '应收单业务单据类型',
+ARAP.BusinessDocID as '应收单业务单号',
+case ARAP.Status 
+when 1 then '待收'
+when 2 then '部分收'
+when 3 then '全收'
+end as '状态',
+ARAP.WStockID as '出/入库单号',
+ARAP.RAID as '线路单号',
+du.DriverName as '司机',
+du.DeliverCellPhone as '司机电话',
+Company.CompanyName as '应收所属公司(法人)',
+c.CustomerID as '客户编号',
+c.CustomerName as '客户名称',
+case when barm.BargainNo is null  then '无合同'  else barm.BargainNo end as '合同编号',
+case isnull(bari.SettlementType,1)
+when 1 then '货到'
+when 2 then '月结' 
+when 3 then '周结'
+when 4 then '半月结' 
+when 5 then '预付款'   
+end as '收款方式',
+bari.Number1 as '天数',
+ARAP.ShouldPayAmt as '应收金额',
+ARAP.PreShouldPayAmt as '已收金额',
+ARAP.ShouldPayDate as '应收日期',
+ARAP.PaidDate as '最后收款日期',
+case 
+when ram.DeliverDate is null then ARAP.ShouldPayDate
+else ram.DeliverDate
+end as '配送/应收日期'
+
+from Finance_ARAP_Master ARAP
+inner join Company on Company.SysNo=arap.CompanySysNo
+inner join Customer c on c.SysNo=ARAP.PayReferSysNo
+inner join Warehouse_Stock_Master WSM on WSM.SysNo=ARAP.WStockSysNo
+inner join SO_Master so on so.SysNo=wsm.ReferSysNo
+left join RouteAllocation_Item RAI on rai.NewReferSysNo=ARAP.WStockSysNo
+left join RouteAllocation_Master ram on ram.SysNo=rai.RASysNo
+left join Bargain_Master barm on barm.SysNo=so.BarCustomerSysNo
+left join Bargain_Item bari on bari.MSysNo=barm.SysNo
+left join deliveruser du on du.sysno = ram.deliveruser
+where ARAPType=10 and ARAPSourceType=10 and ARAP.isdelete = 0 and 
+(ARAP.ShouldPayDate = @theDate or ram.DeliverDate=@theDate) and wsm.WarehouseSysNo in(82,171)
+) select * from shoudPay where shoudPay.[配送/应收日期] = @theDate
